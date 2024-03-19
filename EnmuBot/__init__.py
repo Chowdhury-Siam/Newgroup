@@ -68,7 +68,7 @@ except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
 JOIN_LOGGER = ( )
-OWNER_USERNAME = @Chowdhury_Siam
+OWNER_USERNAME = "Chowdhury_Siam"
 try:
         DRAGONS = []
         DEV_USERS = []
