@@ -115,8 +115,8 @@ ALLOW_EXCL = True
 WALL_API = ("")
 SUPPORT_CHAT = "AnimeKunChannel"
 INFOPIC = True
-BOT_USERNAME = ""
-BOT_ID = 
+BOT_USERNAME = "AnimeKunChannel_Bot"
+BOT_ID = 7033370307
 OK = []
 
 try:
