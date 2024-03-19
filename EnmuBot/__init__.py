@@ -63,7 +63,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 9:
 TOKEN = ""
 
 try:
-        OWNER_ID = 
+        OWNER_ID = 5971676967
 except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
