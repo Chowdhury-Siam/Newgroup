@@ -68,7 +68,7 @@ except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
 JOIN_LOGGER = ( )
-OWNER_USERNAME = 
+OWNER_USERNAME = Chowdhury_Siam
 try:
         DRAGONS = []
         DEV_USERS = []
@@ -96,16 +96,16 @@ URL = None
 PORT = 5000
 CERT_PATH = None
 REDIS_URL = ""
-API_ID = 
-API_HASH = ""
+API_ID = 28986163
+API_HASH = "07225d0de9bee70666517315d2174171"
 ERROR_LOGS = ( )
-MONGO_DB_URI = ""
+MONGO_DB_URI = "mongodb+srv://GPN:lUAID1xlk9Yo9ykY@gpnyt.vghzopa.mongodb.net/?retryWrites=true&w=majority"
 DONATION_LINK = "I'm Free for everyone"
 LOAD = []
 TEMP_DOWNLOAD_DIRECTORY = "/tmp"
 NO_LOAD = []
 DEL_CMDS = True
-ARQ_API_KEY = ""
+ARQ_API_KEY = "SLFPTV-GTODAB-OBSWXL-IDKRKC-ARQ"
 ARQ_API_URL = "https://arq.hamker.in"
 STRICT_GBAN = True
 WORKERS = (8)
@@ -113,7 +113,7 @@ REM_BG_API_KEY = ("")
 BAN_STICKER = ""
 ALLOW_EXCL = True
 WALL_API = ("")
-SUPPORT_CHAT = ""
+SUPPORT_CHAT = "AnimeKunChannel"
 INFOPIC = True
 BOT_USERNAME = ""
 BOT_ID = 
