@@ -10,28 +10,28 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     TEMP_DOWNLOAD_DIRECTORY = "/tmp"
-    API_ID = 17807190  
-    API_HASH = "87d7db377d986df687a32d8230314e7f"
-    ARQ_API = "RVLOWH-KMDHXW-QQCPAC-EFICND-ARQ"
-    TOKEN = "5107955346:AAHR9He_np6W8XdcNMgOjfkCXEJJ8_XqxZg"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    BOT_ID = 5222559003
-    OWNER_ID = 2005266280  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Lost_Emotion"
-    SUPPORT_CHAT = "Enmu_chat_Support"  # Your own group for support, do not add the @
-    BOT_USERNAME = "Enmu_KIZUKI_BOT"
+    API_ID = 28986163  
+    API_HASH = "07225d0de9bee70666517315d2174171"
+    ARQ_API = "SLFPTV-GTODAB-OBSWXL-IDKRKC-ARQ"
+    TOKEN = "7033370307:AAHiO5Wnk18cUXUjgAykvDUkcqKzbZ2JcEM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_ID = 7033370307
+    OWNER_ID = 5971676967  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Chowdhury_Siam"
+    SUPPORT_CHAT = "AnimeKunChannel"  # Your own group for support, do not add the @
+    BOT_USERNAME = "AnimeKunChannel_Bot"
     JOIN_LOGGER = (
-        -1001774850421
+        -1001999743881
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001774850421
+        -1001999743881
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
-        -1001711427851
+        -1001999743881
     )  # Prints information Error
-    REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
-    MONGO_DB_URI = "mongodb+srv://enmu:enmu123@enmu.2cuev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    REDIS_URL = ""
+    MONGO_DB_URI = "mongodb+srv://GPN:lUAID1xlk9Yo9ykY@gpnyt.vghzopa.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    DATABASE_URL = "postgresql://postgres:nR1yc3HQjFJSJcXBy4V3@containers-us-west-33.railway.app:7793/railway"  # needed for any database modules
+    DATABASE_URL = ""  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -61,11 +61,11 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "-0X68BOFAQTLJ"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = ""  # Get your API key from https://timezonedb.com/api
     WALL_API = (
-        "6950f559377140a4e1594c564cdca6a3"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
